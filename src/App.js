@@ -12,7 +12,7 @@ function App(){
       <Parent/>
      <h2>It is GrandParent</h2>
       <button onClick={()=>{countState[1](--countState[0])}}>
-                Decrement</button>
+               Parent Decrement</button>
     </dev>
   </CounterContext.Provider>
  
