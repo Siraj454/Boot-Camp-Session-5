@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://counterreducer.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://session56.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
