@@ -6,7 +6,7 @@ function Child(){
     
     return (
         <dev>
-               <h3> First Child value is {counterValue}</h3>
+               <h3> First Child Value: {counterValue}</h3>
                <br></br>
             <button onClick={()=>{counterValue[1](++counterValue[0])}}>
                 CONTEXT INCREMENT</button>

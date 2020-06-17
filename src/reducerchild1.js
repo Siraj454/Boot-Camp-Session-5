@@ -5,9 +5,9 @@ const Child1=()=>{
     console.log(state);
     return (
         <dev>
-                <h2> Reducer Value is .. {state} </h2>
+                <h2> Reducer Value Is: {state} </h2>
                  <button onClick={()=>dispatch('INCREMENT')}>
-                     Reducer Increment</button>
+                     REDUCER INCREMENT</button>
                      <br></br>
                  <button onClick={()=>dispatch('Plus2')}>REDUCER PLUS 2</button> 
                  <br></br>
