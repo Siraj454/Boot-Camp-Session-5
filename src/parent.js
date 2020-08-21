@@ -7,6 +7,7 @@ function Parent(props){
         <dev>
             <Child name={props.name}/>
             <Child1/>
+    
         </dev>
     );
 }

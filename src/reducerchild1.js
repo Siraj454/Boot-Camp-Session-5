@@ -6,12 +6,12 @@ const Child1=()=>{
     return (
         <dev>
                 <h2> Reducer Value Is: {state} </h2>
-                 <button onClick={()=>dispatch('INCREMENT')}>
+                 <button className="button" onClick={()=>dispatch('INCREMENT')}>
                      REDUCER INCREMENT</button>
                      <br></br>
-                 <button onClick={()=>dispatch('Plus2')}>REDUCER PLUS 2</button> 
+                 <button className="button" onClick={()=>dispatch('Plus2')}>REDUCER PLUS 2</button> 
                  <br></br>
-                 <button onClick={()=>dispatch('RESET')}>REDUCER RESET</button>   
+                 <button className="button" onClick={()=>dispatch('RESET')}>REDUCER RESET</button>   
     </dev>
     )
 }

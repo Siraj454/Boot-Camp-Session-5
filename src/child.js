@@ -5,10 +5,10 @@ function Child(){
     let counterValue = useContext(CounterContext);
     
     return (
-        <dev>
+        <dev className="child">
                <h3> First Child Value: {counterValue}</h3>
                <br></br>
-            <button onClick={()=>{counterValue[1](++counterValue[0])}}>
+            <button className="button" onClick={()=>{counterValue[1](++counterValue[0])}}>
                 CONTEXT INCREMENT</button>
         
         </dev>

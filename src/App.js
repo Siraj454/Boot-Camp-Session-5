@@ -8,10 +8,11 @@ function App(){
 
   return(
   <CounterContext.Provider value={countState}>
-    <dev>
+    <dev className="app">
       <Parent/>
+      
      <h2>Parent Changes State of Context:</h2>
-      <button onClick={()=>{countState[1](--countState[0])}}>
+      <button className="button" onClick={()=>{countState[1](--countState[0])}}>
                Parent Decrement</button>
     </dev>
   </CounterContext.Provider>
